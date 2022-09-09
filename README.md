@@ -1,0 +1,1 @@
+[![Hi, I'm Mikail Thoriq. I live in Depok, Jawa Barat, Indonesia. I am a fullstack web engineer. Though, I have a lot of interests including containerized service You can find my socials at https://mikailthoriq.my.id. Thanks for stopping by, have a great day!](./out/output.svg)](https://mikailthoriq.my.id)
