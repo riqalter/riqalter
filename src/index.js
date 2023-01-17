@@ -7,7 +7,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const qty = require('js-quantities')
 
-const WEATHER_API_TOKEN = '4Hnbz7Q55saX15sLsQZPY2x2gDp6MO96'
+const WEATHER_API_TOKEN = process.env.WEATHER_API_TOKEN
 const WEATHER_DOMAIN = 'http://dataservice.accuweather.com'
 const WEATHER_EMOJIS = {
   1: '☀️',
@@ -50,7 +50,7 @@ const dayBubbleWidths = {
   Sunday: 230,
 }
 
-const locationKey = '345428'
+const locationKey = '202574'
 
 fetch(`${WEATHER_DOMAIN}/forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_TOKEN}`)
   .then(response => response.json())
