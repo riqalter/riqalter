@@ -50,7 +50,7 @@ const dayBubbleWidths = {
   Sunday: 230,
 }
 
-const locationKey = '202574'
+const locationKey = '3454281'
 
 fetch(`${WEATHER_DOMAIN}/forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_TOKEN}`)
   .then(response => response.json())
